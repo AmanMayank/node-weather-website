@@ -24,9 +24,7 @@ weatherForm.addEventListener('submit', (e) =>{
              }
 
              messageOne.textContent = data.location
-             messageTwo.textContent = data.forecast.description + ' . It is currently ' + data.forecast.temp + ' C. '+'It feels like '+ data.forecast.feels + ' C.'
-             console.log(data.location)
-             console.log(data.forecast)   
+             messageTwo.textContent = data.forecast
         })
     })
 })
